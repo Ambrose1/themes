@@ -1,16 +1,16 @@
 # ========== Profile ========== #
 # avatar
-avatar: /avatar/Misaka.jpg
+avatar: /avatar/avatar-amb.jpeg
 # author name
-author: fi3ework
+author: Ambrose yongxu
 # signature
 signature: witness me
 # SNS (you can custom the order)
 social:
-  email: 12345@qq.com
-  github: //github.com/fi3ework
+  email: Ambrosedy@163.com
+  github: https://github.com/Ambrose1
   # wechat should be a path of qr-code image path
-  wechat: /assets/example_qr.png
+  wechat:
   # qq should be a path of qr-code image path
   qq: 
   telegram: 
@@ -69,9 +69,9 @@ SEO_keywords:
   - 'hexo-theme'
   - 'hexo-blog'
 # main title shown in header image
-main_title: fi3ework's Studio.
+main_title: Ambrose yongxu 's blog, life and learn
 # subtitle
-subtitle: it's better to burn out than to fade away
+subtitle: 记录美好生活，读书、摄影、烹饪、旅行、游泳
 # site haeder image
 site_header_image: /intro/index-bg.jpg
 # post haeder image
