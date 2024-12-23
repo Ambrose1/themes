@@ -28,7 +28,7 @@ social:
   linkedin: 
   steam: 
   others: 
-  rss: 
+  rss: /atom.xml
 # friends
 friends:
   # friendA: //www.baidu.com
@@ -87,7 +87,7 @@ read_more_button: false
 # Enable toc
 toc: true
 # Word count & Reading time
-reading_info: false
+reading_info: true
 # Intro height (the default is 50 percents of the screen, you can input other number)
 index_intro_height: 50
 post_intro_height: 50
@@ -118,7 +118,7 @@ algolia_search:
 
 # ========== Donate ========== #
 donate:
-  enable: false
+  enable: true
   title: Buy Me A Coffee
   description: If this post helped you, please consider buying the author a cup of sugar-free coffee ☕️.
   qr_code:
@@ -205,7 +205,7 @@ outdated_threshold:
   specify_article: false
 # Mermaid Chart: https://github.com/knsv/mermaid
 mermaid:
-  enable: false
+  enable: true
   # Version number '8' is for the latest '8.x' version of Mermaid.
   version: 8.11.0
   theme: dark
@@ -214,7 +214,7 @@ mermaid:
 # LaTeX Math Equations Support
 math:
   mathjax:
-    enable: false
+    enable: true
     # Specified version number no less than '3.0.0', or you need to modify the CDN link manually.
     # Version number '3' is for the latest '3.x' version of MathJax.
     version: 3.2.0
