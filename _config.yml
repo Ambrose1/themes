@@ -155,12 +155,12 @@ comment:
   waline_login: 
   # gitalk site: https://github.com/gitalk/gitalk/
   # Value 'true' is recommended for gitalk_pathname_id setting
-  gitalk_client_id: 
-  gitalk_client_secret: 
-  gitalk_admin: 
-  gitalk_owner: 
-  gitalk_repo: 
-  gitalk_pathname_id: false
+  gitalk_client_id: Ov23liTPaimEIF2pZF97
+  gitalk_client_secret: 1c77af999002f2598efc679774b9f635d3b5a6cf
+  gitalk_admin: Ambrose1
+  gitalk_owner: Ambrose1
+  gitalk_repo: git@github.com:Ambrose1/ambrose1.github.io.git
+  gitalk_pathname_id: true
   gitalk_create_issue_manually: true
   # utteranc site: https://utteranc.es/
   utteranc_repo:  
