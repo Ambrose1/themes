@@ -159,7 +159,7 @@ comment:
   gitalk_client_secret: 1c77af999002f2598efc679774b9f635d3b5a6cf
   gitalk_admin: Ambrose1
   gitalk_owner: Ambrose1
-  gitalk_repo: https://github.com/Ambrose1/ambrose1.github.io
+  gitalk_repo: ambrose1.github.io
   gitalk_pathname_id: true
   gitalk_create_issue_manually: true
   # utteranc site: https://utteranc.es/
