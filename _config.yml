@@ -122,9 +122,9 @@ donate:
   title: Buy Me A Coffee
   description: If this post helped you, please consider buying the author a cup of sugar-free coffee ☕️.
   qr_code:
-    - url: /assets/donate-wechat.png
+    - url: /assets/donate-wechat.jpeg
       alt: Wechat
-    - url: /assets/donate-alipay.png
+    - url: /assets/donate-alipay.jpeg
       alt: Alipay
 
 # ========== Comment ========== #
