@@ -237,7 +237,7 @@ custom_font:
 # actions 分类
 actions:
   - name: Home
-    url: http://localhost:4000/2024/12/24/Runloop%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/
+    url: /
   - name: Photos
     url: /photos
   - name: Games
