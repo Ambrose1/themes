@@ -71,4 +71,19 @@
             </div>
         <%_ }) _%>
     <%_ } _%>
+    <%- list_categories(site.categories, {
+        class: 'post-category',
+        show_count: false,
+        style: false,
+        separator: " ",
+        transform(str) {
+            const tagHTML = `
+        <span style="display: inline-block; padding: 3px 8px; border-radius: 15px; background-color: #FF5733; color: white; font-family: Arial, sans-serif; font-size: 12px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); margin: 5px;">
+            ${str}
+        </span>
+    `;
+            return tagHTML;
+        }
+    }) %>
+    <%- list_tags(site.tags, {class: {ul: 'ululul', li: 'lilili', a: 'aaa', count: 'ccc'}, style: false, separator: ' | '}) %>
 </div>

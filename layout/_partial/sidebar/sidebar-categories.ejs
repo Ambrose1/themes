@@ -1,7 +1,8 @@
 <div class="sidebar-panel-categories">
     <div class="sidebar-categories-name">
     <%_ site.categories.each(function (category) { _%>
-        <span class="sidebar-category-name" data-categories="<%- category.name %>">
+
+        <span class="sidebar-category-name" onclick="handleCategoryClick(<%- category.name %>)" data-categories="<%- category.name %>">
             <span class="iconfont-archer">&#xe60a;</span>
             <%- category.name %>
         </span>
@@ -10,3 +11,13 @@
     <div class="iconfont-archer sidebar-categories-empty">&#xe678;</div>
     <div class="sidebar-categories-list"></div>
 </div>
+<script>
+    function handleCategoryClick(event) {
+        // 阻止默认的链接跳转行为，以便后续可以自定义跳转逻辑
+
+        // 获取点击的分类名称，这里通过 data-* 属性获取，你也可以根据实际情况调整获取方式
+        const categoryName = event
+
+        console.log('点击的分类名称:', categoryName.id,config, config.category_selected);
+    }
+</script>

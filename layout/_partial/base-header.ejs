@@ -15,6 +15,11 @@
     </div>
     <!-- header actions -->
     <div class="header-actions">
+        <%_theme?.actions.forEach((action) => {_%>
+            <span class="home-link header-element">
+                <a href="<%- action.url %>"><%- `${action.name}` %></a>
+            </span>
+        <%_});_%>
         <!-- theme mode switch button -->
         <span class="header-theme-btn header-element">
             <i class="fas fa-adjust"></i>
